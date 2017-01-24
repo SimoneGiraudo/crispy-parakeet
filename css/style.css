@@ -1,0 +1,97 @@
+/******** RESET
+**************************************/
+body,h1,ul{
+	margin: 0;
+	padding: 0;
+}
+
+/******** GENERAL
+**************************************/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+section{
+	padding:500px 0;
+}
+/******** HOME
+**************************************/
+
+#main-header{
+	background:url('../img/main.jpg');
+	position: relative;
+	background-size: 100vw 100vh; 
+	height: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+	transition: all 2s;
+}
+
+#main-header:hover {
+	background-size: 115% 115%;
+}
+
+.simon{
+	text-transform: uppercase;
+	position: absolute;
+	top: 480px;
+	left: 620px;
+	font-size: 60px;
+}
+
+.giraudo{
+	position: absolute;
+	top: 540px;
+	left: 600px;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.logo{
+	position: absolute;	
+	top: 180px;
+	width:345px;
+	left: 580px;
+}
+
+#menu{
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+#menu > ul{
+	list-style-type: none;
+	float: right;
+}
+
+#menu > ul > li{
+	display: inline-block;
+	transition: all 1s;
+}
+
+#menu > ul > li:hover{
+	background-color: #FFF;
+	color:#000;
+}
+
+#menu > ul > li:hover > a{
+	color:#000;
+}
+
+#menu > ul > li > a{
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	color:#FFF;
+	transition: all 1s;
+}
