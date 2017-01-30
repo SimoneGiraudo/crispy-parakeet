@@ -19,7 +19,7 @@ body{
 	clear: both;
 }
 section{
-	padding:500px 0;
+	padding:50px 0;
 }
 /******** HOME
 **************************************/
@@ -94,4 +94,14 @@ section{
 	display: inline-block;
 	color:#FFF;
 	transition: all 1s;
+}
+
+
+#about-section{
+	background-color: #000;
+	color: #FFF;
+}
+#contact-section{
+	background-color: #000;
+	color: #FFF;
 }
